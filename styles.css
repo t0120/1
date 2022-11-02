@@ -1,6 +1,6 @@
 
   body {
-
+      background-color:#EBDFC2;
       margin: 0;
       font-family: sans-serif;
       text-align: center
@@ -22,16 +22,10 @@
     width:5%;
   }
 
-.a{
-  background-color:#EBDFC2;
-  padding-TOP:30px;
-  padding-bottom: 30px;
-
-}
-
   .b{
     padding-top: 30px;
     background-color:#ffffff;
+    padding-bottom: 30px;
 
   }
 
@@ -44,5 +38,28 @@
     margin: 5px auto 5px auto;
     text-align:left;
     line-height: 2;
+  }
+  .img-me{
+    padding-TOP:30px;
 
   }
+  .img-fox{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+
+  }
+.img-bottom{
+  position: absolute;
+  padding-left: 320px;
+  top:250px;
+}
+.img-flowers{
+  position: absolute;
+  left:100px;
+  top:130px;
+}
+.flaticon{
+   font-size: 0.5em;
+   margin-right:1650px;
+}
