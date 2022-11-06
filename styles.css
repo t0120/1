@@ -1,17 +1,9 @@
 
   body {
-      background-color:#EBDFC2;
-      margin: 0;
-      font-family: sans-serif;
-      text-align: center
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
 
-
-  }
-  h1{
-    color:#8E8E8E	;
-  }
-  h3 {
-    color: 	#4F4F4F	;
   }
 
   hr {
@@ -21,45 +13,113 @@
     border-width: 7px;
     width:5%;
   }
-
-  .b{
-    padding-top: 30px;
-    background-color:#ffffff;
-    padding-bottom: 30px;
-
+  h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family:'Sacramento',cursive;
+  }
+  h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  h3{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
   }
 
-  .TOP1{
-    margin: 50px auto 50px auto;
-  }
+.TOP{
+  text-align: center;
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top:20px;
+  padding-bottom: 150px;
 
-  .body2{
-    width: 26%;
-    margin: 5px auto 5px auto;
-    text-align:left;
-    line-height: 2;
-  }
-  .img-me{
-    padding-TOP:30px;
-
-  }
-  .img-fox{
-    position: absolute;
-    left: 400px;
-    top: 150px;
-
-  }
-.img-bottom{
-  position: absolute;
-  padding-left: 320px;
-  top:250px;
 }
-.img-flowers{
-  position: absolute;
+.img-cloud-TOP{
+position: absolute;
+right: 300px;
+top: 40px;
+padding-top:20px;
+}
+.nane{
+
+padding-top:90px;
+}
+.img-cloud-bottom{
+position: relative;
+right: 200px;
+bottom: 200px;
+TOP:30px;
+padding-bottom: 50px;
+}
+.profile{
+  text-align: center;
+  padding-top:200px;
+  padding-bottom:30px;
+
+}
+.profile-1{
+
+
+}
+.profile-2{
+  text-align: center;
+
+  padding: 1em;
+
+}
+.skill{
+  width: 50%;
+  text-align:left;
+  margin:100px 300px auto auto ;
+
+
+
+}
+.skill-1{
+
+  float:left ;
+  margin-right:10px;
+
+
+}
+.skill-png{
+  width: 15%;
+  margin-right:10px;
+  float:left ;
+
+
+}
+.work{
+  width: 50%;
+  text-align:left;
+  margin:100px 300px auto auto ;
+  padding-bottom:10px;
+}
+.work-1{
+  padding-left: 30px;
+  padding-bottom:100px;
+
+
+}
+.work-2{
+  width: 20%;
+  margin-right:200px;
+  float:right ;
+}
+.cat{
+  position:absolute;
   left:100px;
-  top:130px;
+  top: 300px;
+
 }
-.flaticon{
-   font-size: 0.5em;
-   margin-right:1650px;
+.cat-1{
+  width: 15%;
+  position:fixed;
+
+
 }
